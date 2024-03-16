@@ -1,0 +1,64 @@
+.theme-font-color {
+  color: #087194 !important;
+}
+
+.theme-background-color {
+  color: #087194 !important;
+}
+
+hr {
+  border: 2px solid #087194 !important;
+  opacity: 1 !important;
+}
+
+.box-shadow {
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+  }
+
+  .card:hover {
+    transform: scale(.9);
+}
+
+.card {
+    transition: transform .5s ease-in-out;
+    position: relative;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay-icon {
+  position: absolute;
+  transition: .5s ease;
+  opacity:0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.card:hover .overlay-icon {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.overlay-title {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.card:hover .overlay-title {
+  opacity: 1;
+}
+
+

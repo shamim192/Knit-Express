@@ -1,0 +1,57 @@
+/* About Us Start */
+.about .banner {
+    /* overflow: hidden; */
+}
+
+.about .banner-image {
+    width: 100%;
+    height: 450px !important;
+}
+
+.about h3 {
+    color: #2b7a94;
+}
+
+.about .card {
+    width: 85% !important;
+    margin: auto;
+}
+
+.about .decoration {
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .about .banner-image {
+        height: 150px !important;
+        object-fit: cover;
+    }
+
+    .about .card {
+        width: 75% !important;
+        margin: auto;
+    }
+}
+
+
+.navbar-scrollspy .nav-link {
+    color: #c6cef8 !important;
+    transition: background-color 0.5s linear !important;
+}
+
+.navbar-scrollspy .nav-link:hover,
+.navbar-scrollspy .active {
+    background-color: #087194 !important;
+    color: #c6cef8 !important;
+}
+
+.scrollspy-container .content:nth-child(odd) {
+    background-color: #dfe7da !important;
+}
+
+.about .content {
+    padding: 4% 0 !important;
+}
+
+/* About Us End */

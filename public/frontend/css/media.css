@@ -1,0 +1,43 @@
+.theme-font-color {
+    color: #087194 !important;
+  }
+  
+  .theme-background-color {
+    color: #087194 !important;
+  }
+  
+  hr {
+    border: 2px solid #087194 !important;
+    opacity: 1 !important;
+  }
+
+.box-shadow {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important; */
+  }
+
+  #text {
+    text-align: justify !important;
+  }
+
+#continue-reading {
+    visibility: hidden;
+  }
+
+.margin-left {
+    margin-left: 10%;
+}
+
+/* Tab */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .margin-left {
+        margin-left: 0%;
+    }
+  }
+  
+  /* Mobile */
+  @media only screen and (max-width: 768px) {
+    .margin-left {
+        margin-left: 0%;
+    }
+  }

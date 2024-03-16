@@ -1,0 +1,13 @@
+
+.banner {
+    overflow: hidden;
+}
+
+.banner-image {
+    height: 450px !important;
+    transition: transform .5s ease-in-out;
+}
+
+.banner-image:hover {
+    transform: scale(1.1);
+}
