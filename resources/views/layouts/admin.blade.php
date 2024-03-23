@@ -144,6 +144,13 @@
                             <span>Galleries</span>
                         </a>
                     </li>
+                    
+                    <li class="{{ Request::routeIs('blogs.*') ? 'active' : '' }}">
+                        <a href="{{ route('blogs.index') }}">
+                            <i class="fa fa-newspaper-o"></i>
+                            <span>Blogs</span>
+                        </a>
+                    </li>
 
                     <li class="{{ Request::routeIs('news.*') ? 'active' : ''}}">
                         <a href="{{ route('news.index') }}">

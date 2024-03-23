@@ -19,6 +19,7 @@ Route::group(['namespace' => 'App\Http\Controllers\Admin', 'middleware' => ['aut
     Route::resource('clients', 'ClientController');
     Route::resource('partners', 'PartnerController');
     Route::resource('galleries', 'GalleryController');
+    Route::resource('blogs', 'BlogController');
     Route::resource('news', 'NewsController');
     Route::resource('categories', 'CategoryController');
 
