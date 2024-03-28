@@ -5,11 +5,12 @@
         <div class="mapouter">
             <div class="gmap_canvas">
                 <iframe width="100%" height="450" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=Axis%20Safety%20Engineering%20Ltd&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ShewraPara%20Bus%20Stand+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                 </iframe>
             </div>
         </div>
+
 
         <div class="container-fluid container-lg mt-md-5 mt-lg-0">
             <div class="row p-3 m-md-4 p-md-4 m-lg-5 p-lg-5 box-shadow rounded-4">
@@ -20,14 +21,14 @@
                         <p>House# 02, Road#12/A Sector #10, Uttara Dhaka-1230</p>
 
                         <h6 class="fw-medium mt-3">Customer Service:</h6>
-                        <a class="text-decoration-none" href="tel:+8801714980336">
+                        <a class="text-decoration-none" href="tel:+8801724980336">
                             <i class="bi bi-telephone-fill">
-                                <span class="ps-2">+8801714980336</span>
+                                <span class="ps-2">+8801724980336</span>
                             </i>
                         </a>
-                        <a class="text-decoration-none" href="tel:+8801712023146">
+                        <a class="text-decoration-none" href="tel:+8804712023146">
                             <i class="bi bi-telephone-fill">
-                                <span class="ps-2 ">+8801712023146</span>
+                                <span class="ps-2 ">+8801742023146</span>
                             </i>
                         </a>
 
