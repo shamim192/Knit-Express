@@ -65,10 +65,10 @@ password: 12345678
 
 ## Feature's:
 
-Multiple Category Products
-Product Mangements
-Blogs
-SEO Setup
+Multiple Category Products <br />
+Product Mangements <br />
+Blogs <br />
+SEO Setup <br />
 
 let's have a look at some screenshots of the project pages
 
